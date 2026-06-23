@@ -1,0 +1,75 @@
+body {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.first-portion {
+    background-image: url("peshawar.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+    margin: 0px auto;
+    padding-top: 110px;
+}
+
+.textbox {
+    display: inline-block;
+}
+
+.head1 {
+    color: white;
+    background-color: #5B9BD5;
+    padding: 6px 15px;
+    margin-bottom: 8px;
+}
+
+.head2 {
+    color: white;
+    background-color: #1a3a5c;
+    padding: 10px;
+}
+
+.second-portion {
+    background-color: beige;
+}
+
+.flex-box {
+    display: flex;
+}
+
+#p1 {
+    width: 150px;
+    height: 150px;
+    border-radius: 75%;
+    border: 3px solid blue;
+}
+
+#p2 {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border: 3px solid blue;
+}
+
+#p3 {
+    width: 150px;
+    height: 150px;
+    border-radius: 75%;
+    border: 3px solid blue;
+}
+
+#p4 {
+    width: 150px;
+    border-radius: 100%;
+}
+
+.flexbox2 {
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 30px auto;
+    background-color: aquamarine;
+    border-bottom: 4px solid blue;
+}
